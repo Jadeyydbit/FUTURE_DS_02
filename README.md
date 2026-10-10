@@ -1,12 +1,12 @@
-##Customer Retention & Churn Analysis
+# Customer Retention & Churn Analysis
 
-#Project Overview
+# Project Overview
 
 Customer churn is an important challenge for subscription-based businesses. Understanding why customers leave, which customer segments are more likely to churn, and how customer retention varies can help businesses make better decisions.
 
 This project analyzes a telecommunications customer churn dataset using Power Query and Microsoft Power BI. The objective is to identify churn patterns, investigate potential churn drivers, explore customer tenure and billing behavior, and develop actionable recommendations to improve customer retention.
 
-#Project Objectives
+# Project Objectives
 
 Clean and prepare customer subscription data for analysis.
 
@@ -20,7 +20,7 @@ Identify customer segments that may require additional retention attention.
 
 Present findings through an interactive, multi-page Power BI dashboard.
 
-#Tools & Technologies
+# Tools & Technologies
 
 Microsoft Excel — initial data inspection and cleaning.
 
@@ -30,11 +30,11 @@ Microsoft Power BI — data modeling, DAX measures, visualizations, and interact
 
 DAX — KPI calculations and tenure-group classification.
 
-#Dataset
+# Dataset
 
 The project uses a telecommunications customer churn dataset containing customer demographics, subscription services, contract details, payment methods, tenure, monthly charges, total charges, and churn status.
 
-#Key fields include:
+# Key fields include:
 
 customerID — unique customer identifier.
 
@@ -54,7 +54,7 @@ TotalCharges — total charges recorded for the customer.
 
 Churn — whether the customer has left the service.
 
-#Data Cleaning & Preparation
+# Data Cleaning & Preparation
 
 The dataset was inspected and prepared before visualization.
 
@@ -72,9 +72,9 @@ Creating tenure groups to compare customers across different stages of their cus
 
 Preparing the cleaned dataset for use in Power BI.
 
-Dashboard Pages
+# Dashboard Pages
 
-#1. Executive Retention Overview
+# 1. Executive Retention Overview
 
 Provides a high-level summary of customer retention and churn.
 
@@ -92,7 +92,7 @@ Retention Rate
 
 Average Tenure
 
-#Visualizations:
+# Visualizations:
 
 Customer Count by Contract Type & Churn Status
 
@@ -102,11 +102,11 @@ Churn Rate by Tenure Group
 
 Customer Count by Internet Service & Churn Status
 
-#2. Churn Drivers
+# 2. Churn Drivers
 
 Explores how churn rates vary across subscription and billing characteristics.
 
-#Visualizations:
+# Visualizations:
 
 Churn Rate by Contract Type
 
@@ -116,11 +116,11 @@ Churn Rate by Internet Service
 
 Churn Rate by Online Security
 
-#3. Customer Lifetime & Retention
+# 3. Customer Lifetime & Retention
 
 Examines customer tenure and billing behavior to identify patterns relevant to retention.
 
-#Visualizations:
+# Visualizations:
 
 Customer Count by Tenure Group
 
@@ -130,7 +130,7 @@ Average Monthly Charges: Churned vs Retained
 
 Churn Rate by Paperless Billing
 
-Key Findings
+# Key Findings
 
 The dashboard highlights the following patterns in the analyzed dataset:
 
@@ -150,7 +150,7 @@ Customer billing: Average monthly charges are higher among churned customers tha
 
 These findings indicate associations between customer characteristics and churn. They do not, by themselves, prove that any particular characteristic causes a customer to leave.
 
-#Business Recommendations
+# Business Recommendations
 
 Based on the observed patterns, the following actions could be investigated:
 
@@ -168,7 +168,7 @@ Monitor higher-billing customers: Examine whether higher monthly charges are ass
 
 Recommendations should be validated through customer feedback, further analysis, and controlled retention experiments where possible.
 
-#Repository Structure
+# Repository Structure
 
 Customer-Retention-Churn-Analysis/
 │
@@ -181,7 +181,7 @@ Customer-Retention-Churn-Analysis/
     ├── churn-drivers.png
     └── customer-lifetime-retention.png
 
-#How to View the Project
+# How to View the Project
 
 Clone or download this repository.
 
@@ -205,7 +205,7 @@ KPI calculations and customer tenure segmentation.
 
 Churn analysis and business recommendations.
 
-#Author
+# Author
 
 Jaden Fernandes
 
